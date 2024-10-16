@@ -35,7 +35,12 @@ export default {
   created() {
     const alias = this.$route.params.itemAlias;
     const item = items.find((el) => el.alias === alias);
-    this.itemAliasPage = item;
+
+    if (item) {
+      this.itemAliasPage = item;
+    } else {
+      this.$router.push({name: 'notFoundPage', params:  { 'notFoundPage': '404' } });
+    }
   },
 };
 </script>
