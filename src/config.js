@@ -7,7 +7,7 @@ home: process.dev ? "http://192.168.32.105:8080/" : "https://tocode.ru",
 };
 // Описание текущего приложения
 export const app = {
-    title: "Logggo",
+    title: "Clash of Clans",
 };
 
 export const links = [
