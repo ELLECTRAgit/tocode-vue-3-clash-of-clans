@@ -1,11 +1,4 @@
 <template>
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
   <div v-if="notFoundPage">
     <h1 class="title">404 NotFound</h1>
   </div>

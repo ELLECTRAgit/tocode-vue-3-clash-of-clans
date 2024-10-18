@@ -30,7 +30,7 @@
 <script>
 import items from '@/seeders/items';
 import TheCard from '@/components/UI/TheCard';
-import TheCardFooter from '@/components/TheCardFooter';
+import TheCardFooter from '@/components/Card/TheCardFooter';
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
 

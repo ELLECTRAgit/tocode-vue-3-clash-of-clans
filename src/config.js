@@ -21,9 +21,4 @@ export const links = [
                 alias: "about",
                 url: "/about",
             },
-                            {
-                title: "Vacanсy",
-                alias: "vacanсy",
-                url: "/vacanсy",
-            },
 ];
